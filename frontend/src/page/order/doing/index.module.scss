@@ -1,0 +1,115 @@
+  .item_container {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+
+  .empty {
+    height: 700px;
+  }
+
+  .order_content {
+    display: block;
+    width: 100vw;
+    background-color: #fff;
+    margin-top: 5px;
+    position: relative;
+    padding: 10px 0 10px 15px;
+    box-shadow: 0 0 5px rgb(210, 221, 253);
+    color: #666;
+    overflow: hidden;
+  }
+
+  .order_type {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 7px;
+  }
+
+  .order_status {
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+    right: 45px;
+  }
+
+  .icon_youla {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%) rotate(-90deg);
+    height: 20px;
+    width: 20px;
+  }
+
+  .text_empty {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    /* color:rgb(191,191,191); */
+    color: #6ea5e9;
+    font-size: 20px;
+
+  }
+
+  .icon_empty {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 100px;
+    width: 130px;
+  }
+
+  .date_time {
+    font-size: 13px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon_clock {
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+  }
+
+  .order_from,
+  .order_to {
+    padding-top: 4px;
+    font-size: 13px;
+    margin-bottom: 2px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .order_price {
+    font-size: 15px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: rgb(68, 182, 102);
+  }
+
+  .dot {
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    left: 16px;
+    transform: translateY(-50%);
+  }
+
+  .dot_one {
+    top: 60%;
+  }
+
+  .dot_two {
+    top: 81%;
+  }

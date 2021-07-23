@@ -1,0 +1,136 @@
+  .hide {
+    background: url("../../../../assets/icon/jieji/hide.png") no-repeat;
+    background-size: contain;
+  }
+
+  .visable {
+    background: url("../../../../assets/icon/jieji/visable.png") no-repeat;
+    background-size: contain;
+  }
+
+  .input_icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 4vh;
+    right: -2vw;
+  }
+  .back{ 
+    img{
+      width: 6vw;
+      height:6vw;
+      transform:rotate(90deg)
+    }
+  }
+  .mine_box {
+    position: absolute;
+    top: 4rem;
+    left: 5vw;
+  }
+
+  .errmsg {
+    margin-top: 10px;
+    color: red;
+  }
+
+  .selection {
+    margin: 10px auto;
+    width: 90vw;
+    height: 8vh;
+    border-bottom: 1px solid #666;
+    display: flex;
+    align-items: center;
+  }
+
+  .selection>span {
+    margin-right: 10px;
+  }
+
+  .selection>.second_span {
+    margin-right: 33px;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #b5b5b6;
+  }
+
+  .save {
+    height: 4vh;
+    width: 40vw;
+    color: white;
+    padding: 5px 5px;
+    border: 0;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1653c4;
+    box-shadow: 0 0 10rpx #679afa;
+    margin: 5px auto;
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  input {
+    border: 0;
+    background-color: transparent;
+    width: 42vw;
+  }
+
+  .client_img {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+  }
+
+  .order_img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .client {
+    background-color: transparent;
+    width: 90vw;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+    color: #666;
+    padding: 10px 13px;
+    border: 0;
+  }
+
+  .color_box {
+    display: flex;
+    height: 4vh;
+    width: 60vw;
+    background-color: rgb(194, 230, 255);
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  .color_box>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .red {
+    background-color: rgb(231, 34, 34);
+    color: #fff;
+  }
+
+  .yellow {
+    background-color: rgb(250, 168, 60);
+    color: #fff;
+  }
+
+  .green {
+    background-color: rgb(32, 221, 73);
+    color: #fff;
+  }

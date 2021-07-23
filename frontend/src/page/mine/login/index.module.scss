@@ -1,0 +1,101 @@
+ 
+  .hide {
+    background: url("../../../assets/icon/jieji/hide.png") no-repeat;
+    background-size: contain;
+  }
+
+  .visable {
+    background: url("../../../assets/icon/jieji/visable.png") no-repeat;
+    background-size: contain;
+  }
+
+  .errmsg {
+    margin-top: 25px;
+    color: red;
+  }
+  .back{ 
+    img{
+      width: 6vw;
+      height:6vw;
+      transform:rotate(90deg)
+    }
+  }
+  .input_icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 22vh;
+    right: 2vw;
+  }
+
+  .login_content {
+    position: absolute;
+    top: 15vh;
+    left: 5vw;
+    right: 5vw;
+  }
+
+  .forgot {
+    position: absolute;
+    top: 28vh;
+    right: 0;
+    border-bottom: 1px solid #3351fa;
+    color: #3351fa;
+    font-size: 13px;
+    padding: 1px;
+  }
+
+  .new {
+    position: absolute;
+    top: 28vh;
+    left: 0;
+    border-bottom: 1px solid #3351fa;
+    color: #3351fa;
+    font-size: 13px;
+    padding: 1px;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5vh;
+    color: #1653c4;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #8ba6ff;
+  }
+
+  .input_text {
+    border: 0;
+    border-bottom: 1px solid #3351fa;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 0;
+    background-color: transparent;
+    margin-bottom: 20px;
+    color: #1653c4;
+  }
+  .right {
+    position: absolute;
+    top: 0;
+    right: 4vw
+  }
+  .submit {
+    height: 6vh;
+    width: 60vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1653c4;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 40vh;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 5px #679afa;
+  }

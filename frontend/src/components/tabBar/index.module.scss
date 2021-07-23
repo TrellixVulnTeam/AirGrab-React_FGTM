@@ -1,0 +1,39 @@
+.active{
+  color:#1653c4
+}
+.disactive{
+  color:#9c9c9c
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: -2vh;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 8px 0 2px 0 ;
+    box-shadow: 0 0 5px rgb(246, 252, 255);
+    
+  li{
+    flex: 1;
+    font-size: 3.5vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .link_item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    img {
+      width: 8vw;
+      height: 8vw;
+    }
+  }
+}

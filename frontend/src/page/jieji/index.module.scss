@@ -1,0 +1,50 @@
+
+  .form {
+    position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(230, 230, 230);
+    background-color: white;
+    height: 85vh;
+    width: 80vw;
+  }
+  .back{ 
+    img{    
+      width: 6vw;
+      height:6vw;
+      transform:rotate(90deg)
+    }
+  }
+  .form_title {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    transition: 5s all;
+  }
+
+  .pick_jieji,
+  .pick_songji {
+    flex: 1;
+    text-align: center;
+    line-height: 8vh;
+    font-size: 15px;
+    color: white;
+    background-color: #1653c4;
+  }
+
+  .jieji {
+    border-top-left-radius: 5px;
+  }
+
+  .songji {
+    border-top-right-radius: 5px;
+  }
+
+  .pick_active {
+    font-weight: 500;
+    background-color: #fff;
+    color: #000;
+    height: 11vh;
+  }

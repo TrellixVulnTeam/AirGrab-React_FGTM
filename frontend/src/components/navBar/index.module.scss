@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    font-weight: 700;
+    height: 7vh;
+    line-height: 7vh;
+    text-align: center;
+    background-color: #1653c4;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    width: 100vw;
+    .left,
+    .right {
+      width: 14vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    // .left {
+    //   width: 8vw;
+    // }
+
+    .center {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+

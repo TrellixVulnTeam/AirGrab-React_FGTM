@@ -1,0 +1,100 @@
+  .box_1 {
+    height: 28vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #1653c4, #83abfc);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    right: 0;
+  }
+
+  .nav {
+    position: absolute;
+    top: 3.5vh;
+    right: 50%;
+    transform: translateX(50%);
+    height: 30vh;
+    width: 80vw;
+    background-color: #fff;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(224, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .function {
+    flex: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jieji,
+  .songji {
+    background: linear-gradient(#194ba8, #4e88fc);
+  }
+
+  .dache,
+  .songhuo {
+    background: linear-gradient(#0365b6, #22abeb);
+    opacity: .5;
+  }
+
+  .jieji::before {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .jieji::after {
+    content: "";
+    width: 2px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .songji::before {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .dache::after {
+    content: "";
+    width: 2px;
+    height: 200px;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .nav .function text {
+    color: #fff
+  }

@@ -1,0 +1,169 @@
+
+  .title {
+    display: flex;
+    padding-left: 15px;
+  }
+  .back{ 
+    img{
+      width: 6vw;
+      height:6vw;
+      transform:rotate(90deg)
+    }
+  }
+  .detail_content {
+    position: absolute;
+    top: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .type,
+  .status {
+    background-color: #5183e9;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 0 0 2vw;
+    padding: 0 13px 4px 13px;
+    display: flex;
+    
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(152, 157, 248);
+  }
+
+  .head,
+  .body {
+    width: 90vw;
+    background-color: #fff;
+    margin: 15px auto;
+    border-radius: 10px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(216, 216, 216);
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .body {
+    display: flex;
+    padding: 7px 20px;
+    box-sizing: border-box;
+  }
+
+  .left_body {
+    flex: 30%;
+    color: #666;
+    font-weight:500; 
+  }
+
+  .left_body div:nth-child(-n+5),
+  .right_body div:nth-child(-n+5) {
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+
+  .right_body {
+    flex: 70%;
+    overflow: hidden;
+     
+  }
+
+  .left_body>div,
+  .right_body>div {
+    font-size: 15px;
+    margin-bottom: 7px;
+    padding: 10px 0;
+  }
+
+  .order_from,
+  .order_to {
+    font-size: 16px;
+    font-weight: 600;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    position: relative;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    span{
+      flex: .5;
+      transform:translateX(-4vw)
+    }
+    div{
+      flex: 17;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+  }
+
+  .dot {
+    height: 7px;
+    width: 7px;
+  }
+
+
+
+  .date_time {
+    margin-top: 7px;
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon_clock {
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+  }
+
+  button {
+    background-color: #fff;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .delete {
+    color: #5183e9;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #5183e9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .confirm {
+    width: 50vw;
+    height: 6vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #1653c4;
+    box-shadow: 0 0 5px #679afa;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2vh;
+  }
+  .add{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }

@@ -1,0 +1,47 @@
+  .service_container {
+    position: absolute;
+    top: 2vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+  }
+.back{ 
+  img{
+    width: 6vw;
+    height:6vw;
+    transform:rotate(90deg)
+  }
+}
+  .service_content {
+    width: 100vw;
+    position: absolute;
+    top: 3rem;
+  }
+
+  .box {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    color: #000;
+  }
+
+  .title img {
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+  }
+
+  .title span {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .content {
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(131, 131, 131);
+  }
