@@ -15,9 +15,11 @@ Using React for front-end structure and Node.js for back-end, MongoDB for the da
 
 ### Home Page
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/1.png" width="320px">
+
 ### FAQ & Service
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/2.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/3.png" width="320px">
+
 ### Order Page
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/13.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/14.png" width="320px">
@@ -25,12 +27,15 @@ Using React for front-end structure and Node.js for back-end, MongoDB for the da
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/15.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/16.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/4.png" width="320px">
+
 ### Mine Page
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/6.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/11.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/12.png" width="320px">
+
 ### Login Page
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/7.png" width="320px">
+
 ### Register Page
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/8.png" width="320px">
 <img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/9.png" width="320px">
