@@ -13,7 +13,7 @@ Using React for front-end structure and Node.js for back-end, MongoDB for the da
 
 ## Project Image
 ### English Version
-<img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/EN/1.png" width="320px">
+<img src="https://github.com/Ernestanior/AirGrab-React/blob/master/frontend/screenshot/1.png" width="320px">
 <img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/EN/2.png" width="320px">
 <img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/EN/3.png" width="320px">
 <img src="https://github.com/Ernestanior/AirportGrab/blob/master/frontend/screenshot/EN/4.png" width="320px">
