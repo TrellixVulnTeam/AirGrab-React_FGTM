@@ -28,7 +28,7 @@ router.post('/car/v1/email', (req, res) => {
 router.post('/car/v1/email2', (req, res) => {
   sendEmail(req, res)
 })
-router.post('/car/v1/user/signup', (req, res) => {
+router.post('/car/v1/user', (req, res) => {
   console.log(req.body);
   new User(req.body).save((err, user) => {
     if (err) {
@@ -46,7 +46,7 @@ router.post('/car/v1/user/signup', (req, res) => {
     }
   })
 })
-router.post('/car/v1/user/modifypw', (req, res) => {
+router.put('/car/v1/user', (req, res) => {
   console.log(req.body);
   User.updateOne({ email: req.body.email }, {
     password: req.body.password
@@ -69,7 +69,7 @@ router.post('/car/v1/user/modifypw', (req, res) => {
     }
   })
 })
-router.post('/car/v1/user/editprofile', (req, res) => {
+router.put('/car/v1/user/profile', (req, res) => {
   console.log(req.body);
   User.updateOne({ email: req.body.email }, {
     name: req.body.name

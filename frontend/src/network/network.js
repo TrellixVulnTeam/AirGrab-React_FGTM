@@ -2,17 +2,20 @@ import request from './request'
 
 export function getAllOrder() {
   return request({
-    url: "/car/v1/order/all"
+    method: 'get',
+    url: "/car/v1/order"
   })
 }
 export function getDoingOrder(email) {
   return request({
+    method: 'get',
     url: "/car/v1/order/doing",
     params: { email: email }
   })
 }
 export function getDoneOrder(email) {
   return request({
+    method: 'get',
     url: "/car/v1/order/done",
     params: { email: email }
   })
@@ -20,21 +23,21 @@ export function getDoneOrder(email) {
 export function newOrder(data) {
   return request({
     method: 'post',
-    url: '/car/v1/new',
+    url: '/car/v1/order',
     data: data
   })
 }
 export function deleteOrder(data) {
   return request({
-    method: 'post',
-    url: '/car/v1/delete',
+    method: 'delete',
+    url: '/car/v1/order',
     data: { 'order_id': data.order_id }
   })
 }
 export function finishOrder(data) {
   return request({
-    method: 'post',
-    url: '/car/v1/confirm',
+    method: 'put',
+    url: '/car/v1/order',
     data: { 'order_id': data.order_id }
   })
 }
@@ -55,14 +58,14 @@ export function sendCode2(email) {
 export function signUp(email, password) {
   return request({
     method: 'post',
-    url: '/car/v1/user/signup',
+    url: '/car/v1/user',
     data: { 'email': email, 'password': password }
   })
 }
 export function modifyPw(email, password) {
   return request({
-    method: 'post',
-    url: '/car/v1/user/modifypw',
+    method: 'put',
+    url: '/car/v1/user',
     data: { 'email': email, 'password': password }
   })
 }
@@ -82,8 +85,8 @@ export function forgot(email) {
 }
 export function editProfile(email, name) {
   return request({
-    method: 'post',
-    url: '/car/v1/user/editprofile',
+    method: 'put',
+    url: '/car/v1/user/profile',
     data: { 'email': email, 'name': name }
   })
 }

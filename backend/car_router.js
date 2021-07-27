@@ -4,7 +4,7 @@ const Car = require('./car')
 const mongoose = require('mongoose');
 const { json } = require('body-parser');
 
-router.post('/car/v1/new', (req, res) => {
+router.post('/car/v1/order', (req, res) => {
   console.log(req.body);
   new Car(req.body).save((err, car) => {
     if (err) { console.log(err); }
@@ -17,7 +17,7 @@ router.post('/car/v1/new', (req, res) => {
     }
   })
 })
-router.get('/car/v1/order/all', (req, res) => {
+router.get('/car/v1/order', (req, res) => {
   Car.find((err, car) => {
     if (err) { console.log(err); }
     else {
@@ -59,7 +59,7 @@ router.get('/car/v1/order/done', (req, res) => {
     }
   })
 })
-router.post('/car/v1/confirm', (req, res) => {
+router.put('/car/v1/order', (req, res) => {
   console.log(req.body.order_id);
   Car.updateOne({ order_id: req.body.order_id }, {
     status: "done"
@@ -77,7 +77,7 @@ router.post('/car/v1/confirm', (req, res) => {
     }
   })
 })
-router.post('/car/v1/delete', (req, res) => {
+router.delete('/car/v1/order', (req, res) => {
   console.log(req.body.order_id);
   Car.deleteOne({
     order_id: req.body.order_id
@@ -95,33 +95,4 @@ router.post('/car/v1/delete', (req, res) => {
     }
   })
 })
-// router.get('/car/v1/order', (req, res) => {
-//   console.log(req.query)
-//   if (req.query) {
-//     if (req.query.search == 'doing') {
-//       Car.find({
-//         status: "待出发"
-//       }, (err, car) => {
-//         if (err) { console.log(err); }
-//         else {
-//           res.send({
-//             "status": "200",
-//             "msg": "success",
-//             "orders": car
-//           })
-//         }
-//       })
-//     }
-//   }
-//   Car.find((err, car) => {
-//     if (err) { console.log(err); }
-//     else {
-//       res.send({
-//         "status": "200",
-//         "msg": "success",
-//         "orders": car
-//       })
-//     }
-//   })
-// })
 module.exports = router
